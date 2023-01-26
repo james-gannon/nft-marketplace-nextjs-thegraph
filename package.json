@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "moralis:sync": "moralis-admin-cli connect-local-devchain --chain hardhat --moralisSubdomain localhost --frpcPath ./frp/frpc"
+    "export": "next build && next export"
   },
   "dependencies": {
     "@apollo/client": "^3.7.5",
