@@ -74,7 +74,7 @@ export default function Home() {
     }
 
     return (
-        <div>
+        <div className="p-5 w-3/4 place-content-center">
             <Form
                 onSubmit={approveAndList}
                 data={[
